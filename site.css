@@ -26,25 +26,25 @@ $animation_color: #a5afb0;
 }
 
 .dine_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_dine2.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490294076000/vfm_1920x150_banner_dine.jpg);
 }
 
 .jobs_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_jobs.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490294356000/vfm_1920x150_banner_jobs.jpg);
 }
 
 .location_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_services.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.netm/sites/58d16f226e6f641c5e080000/image/jpeg/1490294186000/vfm_1920x150_banner_location.jpg);
+}
+http://assets.codecloudapp.com/sites/58d16f226e6f641c5e080000/image/jpeg/1490294250000/vfm_1920x150_banner_services.jpg
+.valleyfair-services{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490294250000/vfm_1920x150_banner_services.jpg);
 }
 
-.district-services{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_services.jpg);
+.valleyfair-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490294300000/vfm_1920x150_banner_contact.jpg);
 }
-
-.district-contact-us{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_contact.jpg);
-}
-.district-privacy-policy{
+.valleyfair-privacy-policy{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_1920x150_banner_privacy.jpg);
 }
 .district-videos{
