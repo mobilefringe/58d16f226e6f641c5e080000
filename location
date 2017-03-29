@@ -7,12 +7,12 @@
     <div class="details_row">
         <div class="details_col_3">
             <p class="colored_link" style="">Office Phone Number</p>
-            <a class="side_link" href="tel:714.259.9090">714.259.9090</a>
+            <a class="side_link" href="tel:801.969.6211">801.969.6211</a>
             <p class="colored_link" style="">Address</p>
             <p class="side_link">
                 3601 S. 2700 W. West Valley City, UT 84119
             </p>
-            <a class="main_btn block animated_btn" href="https://www.google.com/maps?ll=33.697761,-117.828375&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&daddr=2437+Park+Ave+Tustin,+CA+92782+USA@33.6977609,-117.828375" target="_blank" >Driving Direction</a>
+            <a class="main_btn block animated_btn" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0995433260473!2d-111.95738618459565!3d40.69380527933391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528c9ceb00d115%3A0xd8e5d09e307c5478!2s3601+2700+W%2C+West+Valley+City%2C+UT+84119%2C+USA!5e0!3m2!1sen!2sca!4v1490817099498" target="_blank" >Driving Direction</a>
         </div>
         <div class="details_col_9" id="event_details_container">
             <div class="map_container">
