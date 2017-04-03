@@ -81,8 +81,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="/dine">DINE</a></li>
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/district-services">SERVICES</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/district-contact-us">CONTACT</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/valleyfair-services">SERVICES</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/valleyfair-contact-us">CONTACT</a></li>
             </ul>
         </div>
         <div class="row">
@@ -91,16 +91,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
-                    <a href="https://www.facebook.com/DistrictTustin" target="_blank">
+                    <a href="https://www.facebook.com/valleyfairmalln" target="_blank">
                         <span id="social_facebook"></span>
                     </a>
-                    <a href="https://twitter.com/DistrictTustin" target="_blank">
+                    <a href="https://twitter.com/DomainNORTHSIDE" target="_blank">
                         <span id="social_twitter"></span>
                     </a>
                     <!--<a href="https://www.pinterest.com/shopthedistrict/" target="_blank">-->
                     <!--    <span id="social_pinterest"></span>-->
                     <!--</a>-->
-                    <a href="https://www.instagram.com/TheDistrictTustin" target="_blank">
+                    <a href="https://www.instagram.com/domainnorthside/" target="_blank">
                         <span id="social_insta"></span>
                     </a>
                     <!--<a href="#" target="_blank">-->
