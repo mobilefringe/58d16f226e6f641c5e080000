@@ -119,8 +119,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                             <li><a href="/pages/district-services">SERVICES</a></li>
-                <li><a href="/pages/district-contact-us">CONTACT</a></li>
+                             <li><a href="/pages/valleyfair-services">SERVICES</a></li>
+                <li><a href="/pages/valleyfair-contact-us">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
