@@ -26,10 +26,10 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-        if (slug == "district-privacy-policy"){
+        if (slug == "valleyfair-privacy-policy"){
            $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293744000/vfm_440x1200_side_privacy.jpg")
         }
-         if (slug == "district-contact-us"){
+         if (slug == "valleyfair-contact-us"){
            $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293698000/vfm_440x1200_side_contact.jpg")
         }
         
