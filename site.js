@@ -1,6 +1,6 @@
 var site_json = {
                     "name" : "Valley Fair",
-                    "default_image" : "//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/jpeg/undefined/dtl_500x500_logo.jpg",
+                    "default_image" : "//codecloud.cdn.speedyrails.netm/sites/58d16f226e6f641c5e080000/image/jpeg/1490294450000/vfm_500x500_logo.jpg",
                     "time_zone" : "T08:00:00Z",
                     "social_feed" : "//thedistrict.mallmaverick.com/api/v2/district/social.json"
                 }
