@@ -2,13 +2,7 @@
 <html lang="en">
 <head>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N6LGVN5');</script>
-<!-- End Google Tag Manager -->
+
     <link rel="icon" type="image/png" href="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/1462909257000/favicon_vestar.png">
     <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
     <meta charset="utf-8">
@@ -60,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-     ga('create', '', 'auto');
+     ga('create', 'UA-69974835-33', 'auto');
      ga('send', 'pageview');
      
 </script> 
