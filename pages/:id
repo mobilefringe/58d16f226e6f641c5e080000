@@ -32,7 +32,9 @@
          if (slug == "valleyfair-contact-us"){
            $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293698000/vfm_440x1200_side_contact.jpg")
         }
-        
+        if (slug == "valleyfair-code-of-conduct"){
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1494355920000/vfm_440x1200_side_conduct.jpg")
+        }
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
         var pages_json = prefix+"/pages/" + slug + ".json"
