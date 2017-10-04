@@ -100,6 +100,7 @@
                 published_promos.push(val)
             } 
         });
+        console.log(published_promos)
         if (published_promos.length > 0){
             renderPromotions("#promos_container","#promos_template", published_promos);
             $('#no_promotions').hide()
