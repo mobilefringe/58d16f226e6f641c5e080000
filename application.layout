@@ -56,7 +56,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('//twinpine.mallmaverickstaging.com/api/v4/twinpine/subcategories.json');
+        setEndPoint('http://twinpine.mallmaverickstaging.com/api/v4/twinpine/subcategories.json');
     </script>
 </head>
 
