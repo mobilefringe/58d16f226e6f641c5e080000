@@ -68,7 +68,7 @@ $animation_color: #277c87;
     }
     .store_container {
         position:relative;
-            margin-bottom: 30px;
+        margin-bottom: 30px;
         .store_logo_container {
             overflow: hidden;
             border: 1px solid #D8D8D8;
