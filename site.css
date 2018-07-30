@@ -64,7 +64,7 @@ $animation_color: #277c87;
 /**** DINE STYLING *****/
 #dining_container {
     .store_nav a:after {
-        min-width: 90px;
+        min-width: 60px;
     }
     .store_container {
         position:relative;
