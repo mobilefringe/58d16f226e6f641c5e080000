@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="row content_container">
-        <div id="store_list_container">
+        <div id="store_list_container" class="clearfix">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{subcat_list}}">
                     <div class="store_container">
