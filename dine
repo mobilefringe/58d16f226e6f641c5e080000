@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="row content_container">
-        <div id="store_list_container" class="clearfix">
+        <div id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{subcat_list}}">
                     <div class="store_container">
@@ -38,7 +38,7 @@
                             <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="store_list_logo" />
                         </div>
                         <div class="store_data_container">
-                            <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            <p class="store_list_name"><a href="/stores/{{slug}}">{{short_name}}</a></p>
                             <p class="today_store_hours" id="today_store_hour_{{id}}">{{hour_string}}</p>
                         </div>
                     </div>
@@ -164,6 +164,12 @@
                     val.alt_store_front_url = getImageURL(val.store_front_url);    
                 }
             }
+            if (val.name.length > 30){
+               val.short_name =  val.name.substring(0, 30) + "..."
+            } else {
+                val.short_name =  val.name
+            }
+            
             if (val.total_published_promos > 0){
                 val.promo_exist = "display:inline"
             }
