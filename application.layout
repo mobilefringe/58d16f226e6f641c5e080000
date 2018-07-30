@@ -56,7 +56,9 @@
     
     <!-- Site data -->
     <script>
-        
+        $.getJSON("//valleyfair.mallmaverick.com/api/v4/valleyfair/subcategories.json?bust=true").done(function(data){
+            
+        });
         setEndPoint('//valleyfair.mallmaverick.com/api/v4/valleyfair/all.json');
     </script>
 </head>
