@@ -71,6 +71,8 @@ $animation_color: #277c87;
         .store_logo_container {
             overflow: hidden;
             border: 1px solid #D8D8D8;
+                height: 200px;
+    position: relative;
             .store_list_logo {
                 max-width: 100%;
                 max-height:100%;
