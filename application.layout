@@ -134,7 +134,8 @@
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
                 <div class="newsletter_div">
                     <form action="//mobilefringe.createsend.com/t/d/s/xmidu/" method="post" id="newsletter_form">
-                        <input name="cm-xmidu-xmidu" type="text" placeholder="Subscribe to Newsletter" class="newsletter_control" required />
+                        <label for="email">Email address</label>
+                        <input name="cm-xmidu-xmidu" type="text" id="email" placeholder="Enter your e-mail to subscribe" class="newsletter_control" required />
                         <button class="newsletter_btn animated_btn">Subscribe</button>
                         <label class="newsletter_label">
                             <input id="newsletter_agree" type="checkbox" required />
