@@ -86,21 +86,9 @@
                     <a href="https://www.facebook.com/shopvalleyfair" target="_blank">
                         <span id="social_facebook"></span>
                     </a>
-                    <!--<a href="https://twitter.com/ValleyFairUTE" target="_blank">-->
-                    <!--    <span id="social_twitter"></span>-->
-                    <!--</a>-->
-                    <!--<a href="https://www.pinterest.com/shopthedistrict/" target="_blank">-->
-                    <!--    <span id="social_pinterest"></span>-->
-                    <!--</a>-->
                     <a href="https://www.instagram.com/ShopValleyFair" target="_blank">
                         <span id="social_insta"></span>
                     </a>
-                    <!--<a href="#" target="_blank">-->
-                    <!--    <span id="social_yt"></span>-->
-                    <!--</a>-->
-                    <!--<a href="#" target="_blank">-->
-                    <!--    <span id="social_gplus"></span>-->
-                    <!--</a>-->
                 </div>
                 <div class="clearfix"></div>
                 <div class="top_menu">
@@ -111,8 +99,7 @@
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                             <!--<li><a href="/pages/valleyfair-services">SERVICES</a></li>-->
-                <li><a href="/pages/valleyfair-contact-us">CONTACT</a></li>
+                            <li><a href="/pages/valleyfair-contact-us">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
