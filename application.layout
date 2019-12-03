@@ -19,7 +19,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
    
    <!--CSS-->
-    <link href="//maxcdn.bootstrapcdn.commain/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//580904016e6f64160b020000.codecloudapp.com/application.css" rel="stylesheet"/>
@@ -79,7 +79,7 @@
         </div>
         <div class="row">
             <div class="logo_container">
-                <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/png/1490294426000/vfm_600x180_logo.png" class="main_logo" alt=""/></a>
+                <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/png/1490294426000/vfm_600x180_logo.png" class="main_logo" /></a>
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
