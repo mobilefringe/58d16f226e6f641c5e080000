@@ -116,6 +116,9 @@
         show_cat_stores();
         var bannerInfo = getRepoDetailsByName('Directory Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
-        $(".stores_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        if (bannerImageUrl){
+             $(".stores_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        }
+       
     }
 </script>
