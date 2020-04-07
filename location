@@ -45,6 +45,9 @@
         
         var bannerInfo = getRepoDetailsByName('Location Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
-        $(".location_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        if (bannerImageUrl){
+             $(".location_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        }
+       
     }
 </script>
