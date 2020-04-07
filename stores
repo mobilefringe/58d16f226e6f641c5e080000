@@ -114,7 +114,7 @@
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
         show_content();
         show_cat_stores();
-        var bannerInfo = getRepoDetailsByName('Stores Banner')
+        var bannerInfo = getRepoDetailsByName('Directory Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
         $(".stores_banner").css("background-image", 'url(' + bannerImageUrl + ')');
     }
