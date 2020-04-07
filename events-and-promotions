@@ -112,7 +112,7 @@
         var bannerInfo = getRepoDetailsByName('Events Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
         if (bannerImageUrl) {
-            $(".stores_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+            $(".events_banner").css("background-image", 'url(' + bannerImageUrl + ')');
         }
         
     }
