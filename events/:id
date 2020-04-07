@@ -36,6 +36,8 @@
         show_content();
         var bannerInfo = getRepoDetailsByName('Events Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
-        $(".events_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        if (bannerImageUrl) {
+            $(".events_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        }
     }
 </script>
