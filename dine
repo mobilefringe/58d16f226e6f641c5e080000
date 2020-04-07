@@ -104,6 +104,10 @@
         
         show_content();
         show_cat_stores();
+        
+        var bannerInfo = getRepoDetailsByName('Dine Banner')
+        var bannerImageUrl = bannerInfo.images[0].image_url
+        $(".dine_banner").css("background-image", 'url(' + bannerImageUrl + ')');
     }
     function show_cat_stores(){
         $('.show_cat_stores').click(function(e){
