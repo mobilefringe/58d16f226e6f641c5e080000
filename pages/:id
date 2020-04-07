@@ -1,0 +1,55 @@
+<div class="header_banner" id="top_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading" id="mm_page_title"></h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+          
+            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293658000/vfm_440x1200_side_events.jpg" />
+            
+        </div>
+        <div class="details_col_9">
+            <div id="mm_page_content" class="details_desc"></div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        if (slug == "valleyfair-privacy-policy"){
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293744000/vfm_440x1200_side_privacy.jpg")
+           
+           var bannerInfo = getRepoDetailsByName('Privacy Policy Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            $(".valleyfair-privacy-policy").css("background-image", 'url(' + bannerImageUrl + ')');
+        }
+         if (slug == "valleyfair-contact-us"){
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1490293698000/vfm_440x1200_side_contact.jpg")
+        }
+        if (slug == "valleyfair-code-of-conduct"){
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1494355920000/vfm_440x1200_side_conduct.jpg")
+        }
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix+"/pages/" + slug + ".json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_title').html(data.title);
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        show_content();
+    }
+</script>
