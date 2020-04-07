@@ -38,6 +38,10 @@
         }
         if (slug == "valleyfair-code-of-conduct"){
            $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/58d16f226e6f641c5e080000/image/jpeg/1494355920000/vfm_440x1200_side_conduct.jpg")
+           var bannerInfo = getRepoDetailsByName('Code of Conduct Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            $(".header_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+           
         }
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
