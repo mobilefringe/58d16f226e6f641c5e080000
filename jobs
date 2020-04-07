@@ -69,6 +69,9 @@
         
         var bannerInfo = getRepoDetailsByName('Jobs Banner')
         var bannerImageUrl = bannerInfo.images[0].image_url
-        $(".jobs_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        if (bannerImageUrl) {
+            $(".jobs_banner").css("background-image", 'url(' + bannerImageUrl + ')');
+        }
+        
     }
 </script>
