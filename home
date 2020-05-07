@@ -48,7 +48,7 @@
     function renderPage(){
         var banners = getBanners();
         var feature_items = getFeatureList();
-        feature_items.slice(0,2)
+        feature_items = feature_items.slice(0,2)
         console.log("feature_items", feature_items)
         var popup = getPopups()[0];
         renderBanner('#banner_template','#home_banner', banners);
